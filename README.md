@@ -83,15 +83,16 @@ Authentication and Roles
 
 The application uses HTTP Basic Authentication for simplicity:
 Username	Password	Role
+````````bash
 admin	adminpass	ADMIN
 customer1	custpass1	CUSTOMER
 customer2	custpass2	CUSTOMER
-
+````````
 initial db customers are also set at test-data.sql
-````````bash
+`````````bash
     1 customer1	cutpass1	CUSTOMER	10000.0	0.0
     2 customer2	custpass2	CUSTOMER	15000.0	0.0
-````````
+`````````
 
 
 ADMIN users have access to all loans and customer data.

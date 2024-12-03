@@ -84,7 +84,7 @@ Authentication and Roles
 The application uses HTTP Basic Authentication for simplicity:
 Username	Password	Role
 ````````bash
-admin	adminpass	ADMIN
+admin	    adminpass	ADMIN
 customer1	custpass1	CUSTOMER
 customer2	custpass2	CUSTOMER
 ````````

@@ -87,8 +87,15 @@ admin	adminpass	ADMIN
 customer1	custpass1	CUSTOMER
 customer2	custpass2	CUSTOMER
 
-    ADMIN users have access to all loans and customer data.
-    CUSTOMER users can only view and manage their own loans.
+initial db customers are also set at test-data.sql
+````````bash
+    1 customer1	cutpass1	CUSTOMER	10000.0	0.0
+    2 customer2	custpass2	CUSTOMER	15000.0	0.0
+````````
+
+
+ADMIN users have access to all loans and customer data.
+CUSTOMER users can only view and manage their own loans.
 
 ## Testing
 

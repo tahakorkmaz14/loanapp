@@ -26,6 +26,14 @@ public class LoanRequest {
     @Max(value = 24, message = "Installments must not exceed 24")
     private Integer installments;
 
+    public LoanRequest(Long customerId, Double loanAmount, Double interestRate,Integer installments){
+        this.customerId = customerId;
+        this.loanAmount = loanAmount;
+        this.interestRate = interestRate;
+        this.installments = installments;
+
+    }
+
     // Getters and Setters
     public Long getCustomerId() {
         return customerId;

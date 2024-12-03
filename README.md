@@ -90,16 +90,16 @@ customer2	custpass2	CUSTOMER
     ADMIN users have access to all loans and customer data.
     CUSTOMER users can only view and manage their own loans.
 
-Testing
+## Testing
 
-    Run the tests:
+Run the tests:
 
 Always show details
 
     mvn test
 
-    Test data:
-        Predefined test data (test-data.sql) is loaded for integration tests.
+Test data:
+    Predefined test data (test-data.sql) is loaded for integration tests.
 
 Known Issues and Improvements
 

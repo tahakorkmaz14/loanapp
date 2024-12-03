@@ -67,14 +67,18 @@ Always show details
 
     None (all endpoints require authentication).
 
--ADMIN Endpoints
+- ADMIN Endpoints
+``````bash
 HTTP Method	Endpoint	Description
 GET	/api/admin/loans	Get all loans
 POST	/api/admin/loans	Create a new loan
--CUSTOMER Endpoints
+``````
+- CUSTOMER Endpoints
+```````bash
 HTTP Method	Endpoint	Description
 GET	/api/customer/loans	List loans for logged-in user
 POST	/api/installments/pay	Pay loan installments
+```````
 Authentication and Roles
 
 The application uses HTTP Basic Authentication for simplicity:
